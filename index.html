@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie WatchList</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/d587050d50.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Find Your Film</h1>
+        <div class="watchlist-icon">
+          <i class="fa-solid fa-circle-plus"></i>
+        </div>
+        <a href="/watchList.html">My WatchList</a>
+      </header>
+      <div class="form">
+        <form class="formEl">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input
+            type="text"
+            id="movieSearch"
+            placeholder="search for a movie"
+          />
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="movies">
+        <div class="icon">
+          <span>
+            <i class="fa-sharp fa-solid fa-film film"></i>
+          </span>
+          <p>Start Exploring</p>
+        </div>
+      </div>
+    </div>
+    <div class="popup">
+      <p class="popup-msg"></p>
+    </div>
+  </body>
+</html>
