@@ -48,7 +48,7 @@ header .watchlist-icon {
 .form {
   position: relative;
   top: -21px;
-  padding: 0 35px;
+  padding: 0 20%;
 }
 
 .form .search-icon {
@@ -159,11 +159,7 @@ header i {
   display: block;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 45px;
   border-radius: 10px;
-  width: 40%;
-  /* max-width: 400px;
-  max-height: 350px;
-  width: auto;
-  height: auto; */
+  width: 20%;
 }
 
 .movie-info {
@@ -246,5 +242,8 @@ a {
 @media only screen and (max-width: 600px) {
   html {
     font-size: 10px;
+  }
+  .poster {
+    width: 40%;
   }
 }
